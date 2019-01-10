@@ -25,4 +25,4 @@ python3 by default so i added pyhthon3 interpreter
 ➢ 11 first task is to copy task.sh file to the all host in test group
 ➢ 12 second task is tha to execute that commands
 ➢ 13 ansible-playbook playbook.yml
-➢ 14 i executed withou any error
+➢ 14 i executed without any error
