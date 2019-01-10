@@ -1,0 +1,11 @@
+---
+- hosts: test
+  become: true
+  become_user: root
+  tasks:
+  - name: transfer the file
+    copy: src=/home/user1/task.sh dest=/tmp/task.sh
+  - name: executing the sh file
+    command: sudo sh /tmp/task.sh
+~                                                                                                                                                                        
+~                                       
